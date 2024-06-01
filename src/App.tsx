@@ -1,10 +1,15 @@
 import React from 'react';
 import './App.css';
+import { Navbar } from './NavbarAndFooter/Navbar';
+import { HomePage } from './layouts/HomePage/HomePage';
+import { Footer } from './NavbarAndFooter/Footer';
 
-function App() {
+const App = () => {
   return (
     <div className="App">
-      <h1>DIGITAL LIBRARY MANAGEMENT SYSTEM</h1>
+      <Navbar />
+      <HomePage />
+      <Footer />
     </div>
   );
 }
